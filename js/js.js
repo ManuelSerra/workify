@@ -1,0 +1,99 @@
+$(document).ready(function(){
+  $("#homeDiv").show();
+  $("#scopriDiv").hide();
+  $("#workinuversityDiv").hide();
+  $("#contattiDiv").hide();
+  $("#loginDiv").hide();
+  $("#registerDiv").hide();
+  $("#loginFamigliaDiv").hide();
+  $("#loginAziendaDiv").hide();
+
+
+  $("#home").click(function(){
+    $("#homeDiv").show();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+
+  $(".scopri").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").show();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+
+  $(".workuniversity").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").show();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+
+  $("#contatti").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").show();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+
+  $("#login").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").show();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+/*
+  $("#loginFamiglia").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").show();
+    $("#loginAziendaDiv").hide();
+  });
+
+  $("#loginAzienda").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").hide();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").show();
+  });
+  */
+  $("#register").click(function(){
+    $("#homeDiv").hide();
+    $("#scopriDiv").hide();
+    $("#workinuversityDiv").hide();
+    $("#contattiDiv").hide();
+    $("#loginDiv").hide();
+    $("#registerDiv").show();
+    $("#loginFamigliaDiv").hide();
+    $("#loginAziendaDiv").hide();
+  });
+});

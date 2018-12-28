@@ -1,0 +1,171 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Avenir Next" !important;
+  overflow-y:hidden;
+}
+
+.navbar {
+   background-color: #1CB9D8;
+   font-size: 1.5vw;
+   font-weight: 500;
+   line-height: 3vw;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#home {
+  font-family: "Comfortaa" !important;
+}
+
+.nav-link {
+  width: auto;
+  white-space: nowrap;
+}
+
+.family {
+  content: url("../img/family.jpg");
+  width: 50vw;
+  max-width: 55vw;
+  height: auto;
+}
+
+.subtitle {
+  font-size: 4.7vw;
+  font-weight: 600;
+  line-height: 5.5vw;
+  margin-bottom: 10vw;
+}
+
+.paragraphTitle {
+  font-size: 3.8vw;
+  font-weight: 600;
+  line-height: 4.6vw;
+  margin-bottom: 1.5vw !important;
+  margin-top: 15px !important;
+}
+
+.down_section {
+  margin-top: 40px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  /*font-weight: 501;*/
+}
+
+.icon1{
+  margin: 5% 2% 0% 0 !important;
+  content: url("../img/locker.png");
+  width: auto !important;
+  height: 2.5vw !important;
+  display: inline-block;
+  float: left;
+}
+
+.icon2 {
+  margin: 5% 2% 0 0 !important;
+  content: url("../img/sun.png");
+  width: 2.5vw !important;
+  height: 2.5vw !important;
+  display: block;
+  float: left;
+}
+
+.button {
+  font-size: 1.8vw;
+  background-color: #1CB9D8;
+  border-color: #1CB9D8;
+  margin-top: 15px;
+  border-radius: 11px;
+}
+
+.lamp{
+  content:url(../img/lamp.jpg);
+  width: 18vw !important;
+  height: 18vw !important;
+  transform: translate(0%, 20%);
+}
+
+.divider {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  border-bottom: 3px solid black;
+}
+
+
+
+.airplane {
+  content:url(../img/airplane.jpg);
+  width: 16vw !important;
+  height: 16vw !important;
+  transform: translate(0%, 20%);
+}
+
+.books{
+  content:url(../img/books.jpg);
+  width: 16vw !important;
+  height: 16vw !important;
+  transform: translate(0%, 20%);
+}
+
+.footstep{
+  content:url(../img/footstep.jpg);
+  width: auto;
+  height: 16vw;
+  transform: translate(0%, 20%);
+}
+
+#contattiDiv {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow-y: hidden;
+}
+
+.chat{
+  content: url(../img/chat.png);
+  width: auto !important;
+  height: 18vw !important;
+}
+
+.arrow{
+  content: url(../img/arrow-right.png);
+  width: 80px !important;
+  height: 80px !important;
+}
+
+.familyIcon{
+  content: url(../img/loginFamiglia.png);
+  width: auto !important;
+  height: 75px !important;
+  padding-bottom: 10px;
+}
+
+.suitcase{
+  content: url(../img/loginAzienda.png);
+  width: auto !important;
+  height: 75px !important;
+  padding-bottom: 10px;
+}
+
+.sinistra {
+	text-align: left;
+	font-size: 3vw !important;
+}
+
+.p {
+ margin-bottom: 1vw;
+}
+
+.borderBlue {
+  border-color: #1CB9D8 !important;
+}
